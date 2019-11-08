@@ -61,11 +61,11 @@
 		7558897866C9549C67559F4E /* Pods_JMExtraSSL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMExtraSSL_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3BE963BC2A0F2A34EEA549 /* Pods-JMExtraSSL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMExtraSSL_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JMExtraSSL_Tests/Pods-JMExtraSSL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91343ECB51B750BFA0DC0819 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91343ECB51B750BFA0DC0819 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A23295475B843D1F61CA3C22 /* Pods-JMExtraSSL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMExtraSSL_Example.debug.xcconfig"; path = "Target Support Files/Pods-JMExtraSSL_Example/Pods-JMExtraSSL_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E5C52D3F5A930B7E296617CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E5C52D3F5A930B7E296617CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EA798125A944A3F2586E658F /* Pods_JMExtraSSL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMExtraSSL_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F01C8953F316ECDB68DB1CD2 /* JMExtraSSL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JMExtraSSL.podspec; path = ../JMExtraSSL.podspec; sourceTree = "<group>"; };
+		F01C8953F316ECDB68DB1CD2 /* JMExtraSSL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMExtraSSL.podspec; path = ../JMExtraSSL.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F707AB3259BAC180BCB9E15B /* Pods-JMExtraSSL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMExtraSSL_Example.release.xcconfig"; path = "Target Support Files/Pods-JMExtraSSL_Example/Pods-JMExtraSSL_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				7F3BE963BC2A0F2A34EEA549 /* Pods-JMExtraSSL_Tests.debug.xcconfig */,
 				3F812E610413223617DA725F /* Pods-JMExtraSSL_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				913E80EF0F46E02F3C549A54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -362,24 +361,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMExtraSSL_Tests/Pods-JMExtraSSL_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		913E80EF0F46E02F3C549A54 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JMExtraSSL_Example/Pods-JMExtraSSL_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JMExtraSSL/JMExtraSSL.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JMExtraSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMExtraSSL_Example/Pods-JMExtraSSL_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

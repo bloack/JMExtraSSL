@@ -1,0 +1,6 @@
+framework module JMExtraSSL {
+  umbrella header "JMExtraSSL-umbrella.h"
+
+  export *
+  module * { export * }
+}

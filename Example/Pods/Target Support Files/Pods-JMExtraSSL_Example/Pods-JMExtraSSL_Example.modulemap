@@ -1,0 +1,6 @@
+framework module Pods_JMExtraSSL_Example {
+  umbrella header "Pods-JMExtraSSL_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
