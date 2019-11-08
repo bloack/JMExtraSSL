@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JMExtraSSL_Example' do
+  pod 'JMExtraSSL', :path => '../'
+
+  target 'JMExtraSSL_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
