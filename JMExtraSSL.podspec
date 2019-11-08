@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 SSL库，为了解决各种第三方引入冲突，目前七鱼客服和agora有SSL库冲突问题
                        DESC
 
-  s.homepage         = 'https://github.com/刘俊臣/JMExtraSSL'
+  s.homepage         = 'https://github.com/bloack/JMExtraSSL'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '刘俊臣' => 'junchen.liu@jiamiantech.com' }
-  s.source           = { :git => 'https://github.com/刘俊臣/JMExtraSSL.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bloack/JMExtraSSL.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
