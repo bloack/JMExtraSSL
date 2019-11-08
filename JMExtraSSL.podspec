@@ -30,7 +30,6 @@ SSL库，为了解决各种第三方引入冲突，目前七鱼客服和agora有
 
   s.ios.deployment_target = '8.0'
   s.ios.vendored_libraries   = 'JMExtraSSL/libs/*.a'
-  s.source_files = 'JMExtraSSL/Classes/**/*'
   
   # s.resource_bundles = {
   #   'JMExtraSSL' => ['JMExtraSSL/Assets/*.png']
